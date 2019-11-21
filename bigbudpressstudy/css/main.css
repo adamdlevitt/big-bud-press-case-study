@@ -1,0 +1,125 @@
+:root {
+--font-serif: cooper-black-std, serif;
+--black: #000;
+--white: #fff;
+--gray-dark: 2e3438;
+--blue-light: #0085ae;
+--blue-dark: #00bffb;
+}
+
+html {
+box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+body {
+font-family: var(--font-serif);
+color: var(--gray-dark);
+line-height: 1.667;
+}
+
+a {
+color: var(--blue-light);
+text-decoration: none;
+}
+
+img {
+display: block;
+}
+
+.component img {
+    max-width: initial;
+}
+
+.compenent__img {
+    border: 1px solid #ccc;
+    overflow-x: auto;
+}
+
+.component__code {
+    border: 1px solid #ccc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: var(--font-serif);
+color: var(--gray-dark);
+line-height: 1.2;
+}
+
+h1 {
+font-size: 2.5rem;
+}
+
+h2 {
+font-size: 1.333rem;
+}
+h3 {
+font-size: .667rem;
+}
+h4 {
+font-size: .333rem;
+}
+
+li {
+list-style: none;
+}
+
+p.body-text {
+text-align: center;
+color: 2e3438;
+}
+
+/***
+* Utilities
+*/
+
+.container {
+padding: 2rem;
+}
+
+/**
+* design system component on the components.html page
+**/
+.component__name {
+font-family: monospace;
+font-size: 1.25rem;
+font-weight: normal;
+background: var(--gray-light);
+padding: 0.25rem;
+margin: 0;
+}
+
+.component__code-headings {
+text-align: center;
+}
+
+.component__code:before,
+.component__img:before {
+content: "CODE";
+display: block;
+padding: 0.25rem;
+line-height: 1;
+font-family: monospace;
+position: absolute;
+top: 0;
+right: 0;
+z-index: 1;
+background: black;
+color: white;
+}
+.component__img:before {
+content: "IMG";
+}
+
+.component__img-logo {
+max-width: 50%;
+}
