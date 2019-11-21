@@ -2,7 +2,7 @@
 --font-serif: cooper-black-std, serif;
 --black: #000;
 --white: #fff;
---gray-dark: 2e3438;
+--gray-dark: #2e3438;
 --blue-light: #0085ae;
 --blue-dark: #00bffb;
 }
@@ -27,21 +27,49 @@ color: var(--blue-light);
 text-decoration: none;
 }
 
+a.button_main-nav {
+color: var(--gray-dark);
+}
+
+p.body {
+    text-align: center;
+}
+
+
 img {
 display: block;
+}
+
+img.logo {
+    display: inline;
+    margin: 0;
+}
+
+.component__name {
+    font-family: monospace;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: black;
+    padding: 0.25rem;
+    margin-top: 3em;
+    }
+
+.component-page__section-heading {
+    margin-top: 5em;
 }
 
 .component img {
     max-width: initial;
 }
 
-.compenent__img {
+.component__img {
     border: 1px solid #ccc;
     overflow-x: auto;
 }
 
 .component__code {
     border: 1px solid #ccc;
+    overflow-x: auto;
 }
 
 h1,
@@ -69,13 +97,14 @@ h4 {
 font-size: .333rem;
 }
 
-li {
-list-style: none;
+.heading {
+    text-align: center;
 }
 
-p.body-text {
-text-align: center;
-color: 2e3438;
+li {
+    font-size: 9px;
+display: inline-block;
+margin: 0 1.5em;
 }
 
 /***
@@ -89,14 +118,7 @@ padding: 2rem;
 /**
 * design system component on the components.html page
 **/
-.component__name {
-font-family: monospace;
-font-size: 1.25rem;
-font-weight: normal;
-background: var(--gray-light);
-padding: 0.25rem;
-margin: 0;
-}
+
 
 .component__code-headings {
 text-align: center;
