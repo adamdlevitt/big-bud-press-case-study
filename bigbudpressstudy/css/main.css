@@ -3,8 +3,8 @@
 --black: #000;
 --white: #fff;
 --gray-dark: #2e3438;
---blue-light: #0085ae;
---blue-dark: #00bffb;
+--blue-light: #00bffb;
+--blue-dark: #0085ae;
 }
 
 html {
@@ -23,7 +23,7 @@ line-height: 1.667;
 }
 
 a {
-color: var(--blue-light);
+color: var(--blue-dark);
 text-decoration: none;
 }
 
@@ -31,8 +31,17 @@ a.button_main-nav {
 color: var(--gray-dark);
 }
 
+a.button_footer-nav {
+    color: white;
+    }
+
 p.body {
     text-align: center;
+}
+
+p.footer-about {
+    color: white;
+    font-size: 10px;
 }
 
 
@@ -72,6 +81,15 @@ img.logo {
     overflow-x: auto;
 }
 
+.component__code-footer {
+    background: var(--blue-dark);
+}
+
+.component__code-footer__about {
+    display: inline;
+    margin: 5em;
+}
+
 h1,
 h2,
 h3,
@@ -97,15 +115,33 @@ h4 {
 font-size: .333rem;
 }
 
+h4.footer__heading {
+    color: #fff;
+    font-size: .1rem;
+    border-bottom: 1px solid var(--blue-light);
+    padding: 5em 0 1em;
+}
+
 .heading {
     text-align: center;
 }
 
+ul {
+    list-style: none;
+    margin: 2em 0 5em;
+}
+
 li {
+    font-size: 9px;
+    margin: 0.5em;
+}
+
+li.main-nav {
     font-size: 9px;
 display: inline-block;
 margin: 0 1.5em;
 }
+
 
 /***
 * Utilities
@@ -113,35 +149,4 @@ margin: 0 1.5em;
 
 .container {
 padding: 2rem;
-}
-
-/**
-* design system component on the components.html page
-**/
-
-
-.component__code-headings {
-text-align: center;
-}
-
-.component__code:before,
-.component__img:before {
-content: "CODE";
-display: block;
-padding: 0.25rem;
-line-height: 1;
-font-family: monospace;
-position: absolute;
-top: 0;
-right: 0;
-z-index: 1;
-background: black;
-color: white;
-}
-.component__img:before {
-content: "IMG";
-}
-
-.component__img-logo {
-max-width: 50%;
 }
