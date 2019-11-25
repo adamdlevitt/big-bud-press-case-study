@@ -37,56 +37,7 @@ color: var(--gray-dark);
 
 
 img {
-display: block;
-}
-
-img.logo {
-    display: inline;
-    margin: 0;
-}
-
-.component__name {
-    font-family: monospace;
-    font-size: 1.25rem;
-    font-weight: normal;
-    color: black;
-    padding: 0.25rem;
-    margin-top: 3em;
-    }
-
-.component-page__section-heading {
-    margin-top: 5em;
-}
-
-.component img {
-    max-width: initial;
-}
-
-.component__img {
-    border: 1px solid #ccc;
-    overflow-x: auto;
-}
-
-.component__code {
-    border: 1px solid #ccc;
-    overflow-x: auto;
-}
-
-.component__code-footer {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    background: var(--blue-dark);
-    color: #fff;
-}
-
-.component__code-footer__block {
-    display: block;
-    padding: 2rem;
-}
-
-.component__code-footer-nav {
-    column-span: all;
-    align-content: center;
+display: inherit;
 }
 
 h1,
@@ -118,9 +69,12 @@ font-size: .333rem;
     text-align: center;
 }
 
+.product-price {
+    color:  var(--gray-dark);
+}
+
 ul {
     list-style: none;
-    margin: 0 auto;
 }
 
 li {
@@ -132,6 +86,63 @@ li.main-nav {
     font-size: 9px;
 display: inline-block;
 margin: 0 1.5em;
+}
+
+.grid-uniform {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.grid-item {
+    display: inherit;
+    text-align: center;
+    color: var(--blue-dark);
+    font-size: .667rem;
+    text-transform: uppercase;
+}
+
+.shop-block__link {
+    color: white;
+    text-decoration: none;
+}
+
+.shop-block__centered {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.shop-block__button {
+    color: #fff;
+    outline: 1px solid #fff;
+    padding: 7px;
+}
+
+.grid-location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+.grid-location__item {
+    background: var(--blue-dark);
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    font-size: .4rem;
+}
+
+.location-hours {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.button-directions {
+    color: #fff;
+    outline: 1px solid #fff;
+    padding: 7px;
 }
 
 .page-footer {
@@ -177,4 +188,72 @@ font-size: .2rem;
 
 .container {
 padding: 2rem;
+}
+
+.component__name {
+    font-family: monospace;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: black;
+    padding: 0.25rem;
+    margin-top: 3em;
+    }
+
+.component-page__section-heading {
+    margin-top: 5em;
+}
+
+.component img {
+    max-width: initial;
+}
+
+.component__img {
+    border: 1px solid #ccc;
+    overflow-x: auto;
+}
+
+.component__code {
+    border: 1px solid #ccc;
+    overflow-x: auto;
+}
+
+.component__code__cover-heading {
+    color: black;
+}
+
+.component__code__subtitle {
+    color: var(--gray-dark);
+    text-align: center;
+    border-bottom: 5px solid lightgray;
+    padding: 1em;
+}
+
+.component__code__shop-block {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.component__code__subtitle-location {
+    color: #cee5ec;
+    text-align: center;
+    border-bottom: 2px solid #15728f;
+    padding: 1em;
+}
+
+.component__code-footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background: var(--blue-dark);
+    color: #fff;
+}
+
+.component__code-footer__block {
+    display: block;
+    padding: 2rem;
+}
+
+.component__code-footer-nav {
+    column-span: all;
+    align-content: center;
 }
