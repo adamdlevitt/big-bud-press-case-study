@@ -1,291 +1,384 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<title>Web Components | Big Bud Press Case Study</title>
-<link rel="stylesheet" href="https://use.typekit.net/nvj2kus.css">
-<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="../css/main.css" />
-</head>
-<body class="component-page">
-<main class="container component-page__main">
-<h1>Web Design System</h1>
-<p>
-This is a collection of components based on my study of the design
-system of the
-<a href="https://bigbudpress.com">Big Bud Press</a> website.
-</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Web Components | Big Bud Press Case Study</title>
+    <link rel="stylesheet" href="https://use.typekit.net/nvj2kus.css" />
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+  </head>
+  <body class="component-page">
+    <main class="container component-page__main">
+      <h1>Web Design System</h1>
+      <p>
+        This is a collection of components based on my study of the design
+        system of the
+        <a href="https://bigbudpress.com">Big Bud Press</a> website.
+      </p>
 
-<section class="page-section" id="typography">
-<h2 class="component-page__section-heading">Typography</h2>
+      <section class="page-section" id="typography">
+        <h2 class="component-page__section-heading">Typography</h2>
 
-<article id="body-copy" class="component component--is-done">
-<h3 class="component__name">body</h3>
-<div class="component__img">
-<img
-srcset="img/bbp_body.png 1.25x"
-src="img/bbp_body.png 1.25x"
-alt="body"
-/>
-</div>
-<div class="component__code">
-<p class="body">
-If you have any questions or concerns please feel free to contact us at contact@bigbudpress.com! You should receive a response within 1-5 business days. We are a small business so please be patient with us! We work hard to get back to emails as quickly as possible but sometimes it can take a little longer so we appreciate your patience! 
-</p>
-</div>
-</article>
-<article id="headings" class="component component--is-done">
-<h3 class="component__name">h2, h3</h3>
-<div class="component__img">
-<img srcset="img/bbp_heading.png 3x" src="img/bbp_heading.png 3x" alt="heading"/>
-</div>
-<div class="component__code">
-<h2 class="heading">HELP</h2>
-<h3 class="heading">Big Bud 2019 Holiday Return Policy---</h3>
-</div>
-</article>
-<article id="links" class="component component--is-done">
-<h3 class="component__name">Links</h3>
-<div class="component__img">
-<img srcset="img/bbp_link.png 2.5x" src="img/bbp_link.png 2.5x" alt="link"/>
-</div>
-<div class="component__code">
-<a href="#!">ATHELTIC RAGLAN TEE</a>
-</div>
-</article>
-</section>
-<section id="nav" class="page-section">
-<h2 class="component-page__section-heading">Page Header</h2>
-<article id="main-nav" class="component component--is-done">
-<h3 class="component__name">.main-nav</h3>
-<div class="component__img">
-<img
-srcset="img/bbp_main-nav.png 3x"
-src="img/bbp_main-nav.png 3x"
-alt="main nav"
-/>
-</div>
-<div class="component__code">
-<nav class="main-nav">
-<ul class="main-nav__list">
-<li class="main-nav"><a href="#!"><img class="img_logo"
-srcset="img/bbp_logo.png 3.5x"
-src="img/bbp_logo.png 3.5x"
-alt="logo"
-/></a></li>
-<li class="main-nav"><a href="#!" class="button_main-nav">SHOP ALL</a></li>
-<li class="main-nav"><a href="#!" class="button_main-nav">TOPS AND JACKETS</a></li>
-<li class="main-nav"><a href="#!" class="button_main-nav">PANTS</a></li>
-<li class="main-nav"><a href="#!" class="button_main-nav">JUMPSUITS</a></li>
-<li class="main-nav"><a href="#!" class="button_main-nav">BAGS</a></li>
-<li class="main-nav"><a href="#!" class="button_main-nav">ACCESSORIES</a></li>
-<li class="main-nav"><a href="#!" class="button_main-nav">CLEARANCE!</a></li>
-<li class="main-nav"><a href="#!" class="button_main-nav">HELP</a></li>
-</ul>
-</nav>
-</div>
-</article>
-</section>
-<section id="cover" class="page-section">
-<h2 class="component-page__section-heading">Cover-Section</h2>
-<article id="feature-section" class="component component--is-done">
-<h3 class="component__name">.cover-section</h3>
-<img
-class="component__img"
-srcset="img/bbp_cover.png 3x"
-src="img/bbp_cover.png 3x"
-alt="cover"
-/>
-<div class="component__code">
-<a href="#!"><img
-class="component__img"
-srcset="img/bbp_cover.png 3x"
-src="img/bbp_cover.png 3x"
-alt="cover"
-/></a>
-</div>
-<h3 class="component__name">.cover-heading</h3>
-<div class="component__code">
-<h2 class="component__code__cover-heading">New Crossbody Bags</h2>
-</div>
-</article>
-</section>
-<section id="feature" class="page-section">
-<h2 class="component-page__section-heading">Featured Products</h2>
-<article id="feature-feature" class="component component--is-done">
-<h3 class="component__name">.featured-products</h3>
-<img
-class="component__img"
-srcset="img/bbp_featured.png 3x"
-src="img/bbp_featured.png 3x"
-alt="featured products"
-/>
-<div class="component__code">
-<section class="page-section__featured-products">
-<h3 class="component__code__subtitle">
-FEATURED PRODUCTS
-</h3>
-<div class="grid-uniform">
-<div class="grid-item">
-<p class="product-reference"><a href="#!"><img class="img_" srcset="img/bbp_product-image1.png 3x" src="img/bbp_product-image1.png 3x" alt="crossbody bag pink"></a></p>
-<div class="figcaption under text-center">
-<p class="product-title">Crossbody Bag - Flamingo Pink</p>
-<p class="product-price">
-<span class="price">
-$ 45.00
-</span>
-</p>
-</div>
-</div>
-<div class="grid-item">
-<p class="product-reference"><a href="#!"><img class="product-image" srcset="img/bbp_product-image2.png 3x" src="img/bbp_product-image2.png 3x" alt="crossbody bag red"></a></p>
-<div class="figcaption under text-center">
-<p class="product-title">Crossbody Bag - Clay Red</p>
-<p class="product-price">
-<span class="price">
-$ 45.00
-</span>
-</p>
-</div>
-</div>
-<div class="grid-item">
-<p class="product-reference"><a href="#!"><img class="product-image" srcset="img/bbp_product-image3.png 3x" src="img/bbp_product-image2.png 3x" alt="crossbody bag yellow"></a></p>
-<div class="figcaption under text-center">
-<p class="product-title">Crossbody Bag - Mustard Yellow</p>
-<p class="product-price">
-<span class="price">
-$ 45.00
-</span>
-</p>
-</div>
-</div>
-</div>
-</section>
-</div>
-</article>
-</section>
-<section id="shop-blocks" class="page-section">
+        <article id="body-copy" class="component component--is-done">
+          <h3 class="component__name">body</h3>
+          <div class="component__img">
+            <img
+              srcset="img/bbp_body.png 1.25x"
+              src="img/bbp_body.png 1.25x"
+              alt="body"
+            />
+          </div>
+          <div class="component__code">
+            <p class="body">
+              If you have any questions or concerns please feel free to contact
+              us at contact@bigbudpress.com! You should receive a response
+              within 1-5 business days. We are a small business so please be
+              patient with us! We work hard to get back to emails as quickly as
+              possible but sometimes it can take a little longer so we
+              appreciate your patience!
+            </p>
+          </div>
+        </article>
+        <article id="headings" class="component component--is-done">
+          <h3 class="component__name">h2, h3</h3>
+          <div class="component__img">
+            <img
+              srcset="img/bbp_heading.png 3x"
+              src="img/bbp_heading.png 3x"
+              alt="heading"
+            />
+          </div>
+          <div class="component__code">
+            <h2 class="heading">HELP</h2>
+            <h3 class="heading">Big Bud 2019 Holiday Return Policy---</h3>
+          </div>
+        </article>
+        <article id="links" class="component component--is-done">
+          <h3 class="component__name">Links</h3>
+          <div class="component__img">
+            <img
+              srcset="img/bbp_link.png 2.5x"
+              src="img/bbp_link.png 2.5x"
+              alt="link"
+            />
+          </div>
+          <div class="component__code">
+            <a href="#!">ATHELTIC RAGLAN TEE</a>
+          </div>
+        </article>
+      </section>
+      <section id="nav" class="page-section">
+        <h2 class="component-page__section-heading">Page Header</h2>
+        <article id="main-nav" class="component component--is-done">
+          <h3 class="component__name">.main-nav</h3>
+          <div class="component__img">
+            <img
+              srcset="img/bbp_main-nav.png 3x"
+              src="img/bbp_main-nav.png 3x"
+              alt="main nav"
+            />
+          </div>
+          <div class="component__code">
+            <nav class="main-nav">
+              <ul class="main-nav__list">
+                <li class="main-nav">
+                  <a href="#!"
+                    ><img
+                      class="img_logo"
+                      srcset="img/bbp_logo.png 3.5x"
+                      src="img/bbp_logo.png 3.5x"
+                      alt="logo"
+                  /></a>
+                </li>
+                <li class="main-nav">
+                  <a href="#!" class="button_main-nav">SHOP ALL</a>
+                </li>
+                <li class="main-nav">
+                  <a href="#!" class="button_main-nav">TOPS AND JACKETS</a>
+                </li>
+                <li class="main-nav">
+                  <a href="#!" class="button_main-nav">PANTS</a>
+                </li>
+                <li class="main-nav">
+                  <a href="#!" class="button_main-nav">JUMPSUITS</a>
+                </li>
+                <li class="main-nav">
+                  <a href="#!" class="button_main-nav">BAGS</a>
+                </li>
+                <li class="main-nav">
+                  <a href="#!" class="button_main-nav">ACCESSORIES</a>
+                </li>
+                <li class="main-nav">
+                  <a href="#!" class="button_main-nav">CLEARANCE!</a>
+                </li>
+                <li class="main-nav">
+                  <a href="#!" class="button_main-nav">HELP</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </article>
+      </section>
+      <section id="cover" class="page-section">
+        <h2 class="component-page__section-heading">Cover-Section</h2>
+        <article id="feature-section" class="component component--is-done">
+          <h3 class="component__name">.cover-section</h3>
+          <img
+            class="component__img"
+            srcset="img/bbp_cover.png 3x"
+            src="img/bbp_cover.png 3x"
+            alt="cover"
+          />
+          <div class="component__code">
+            <a href="#!"
+              ><img
+                class="component__img"
+                srcset="img/bbp_cover.png 3x"
+                src="img/bbp_cover.png 3x"
+                alt="cover"
+            /></a>
+          </div>
+          <h3 class="component__name">.cover-heading</h3>
+          <div class="component__code">
+            <h2 class="component__code__cover-heading">New Crossbody Bags</h2>
+          </div>
+        </article>
+      </section>
+      <section id="feature" class="page-section">
+        <h2 class="component-page__section-heading">Featured Products</h2>
+        <article id="feature-feature" class="component component--is-done">
+          <h3 class="component__name">.featured-products</h3>
+          <img
+            class="component__img"
+            srcset="img/bbp_featured.png 3x"
+            src="img/bbp_featured.png 3x"
+            alt="featured products"
+          />
+          <div class="component__code">
+            <section class="page-section__featured-products">
+              <h3 class="component__code__subtitle">
+                FEATURED PRODUCTS
+              </h3>
+              <div class="grid-uniform">
+                <div class="grid-item">
+                  <p class="product-reference">
+                    <a href="#!"
+                      ><img
+                        class="img_"
+                        srcset="img/bbp_product-image1.png 3x"
+                        src="img/bbp_product-image1.png 3x"
+                        alt="crossbody bag pink"
+                    /></a>
+                  </p>
+                  <div class="figcaption under text-center">
+                    <p class="product-title">Crossbody Bag - Flamingo Pink</p>
+                    <p class="product-price">
+                      <span class="price">
+                        $ 45.00
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <p class="product-reference">
+                    <a href="#!"
+                      ><img
+                        class="product-image"
+                        srcset="img/bbp_product-image2.png 3x"
+                        src="img/bbp_product-image2.png 3x"
+                        alt="crossbody bag red"
+                    /></a>
+                  </p>
+                  <div class="figcaption under text-center">
+                    <p class="product-title">Crossbody Bag - Clay Red</p>
+                    <p class="product-price">
+                      <span class="price">
+                        $ 45.00
+                      </span>
+                    </p>
+                  </div>
+                </div>
+                <div class="grid-item">
+                  <p class="product-reference">
+                    <a href="#!"
+                      ><img
+                        class="product-image"
+                        srcset="img/bbp_product-image3.png 3x"
+                        src="img/bbp_product-image2.png 3x"
+                        alt="crossbody bag yellow"
+                    /></a>
+                  </p>
+                  <div class="figcaption under text-center">
+                    <p class="product-title">Crossbody Bag - Mustard Yellow</p>
+                    <p class="product-price">
+                      <span class="price">
+                        $ 45.00
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+      </section>
+      <section id="shop-blocks" class="page-section">
         <h2 class="component-page__section-heading">Shop-Blocks</h2>
         <article id="feature-shop-blocks" class="component component--is-done">
-        <h3 class="component__name">.shop-blocks</h3>
-        <img
-        class="component__img"
-        srcset="img/bbp_shop-block.png 3x"
-        src="img/bbp_shop-block.png 3x"
-        alt="shop block"
-        />
-        <div class="component__code__shop-block">
-                <a href="#!" class="shop-block__link"><img
+          <h3 class="component__name">.shop-blocks</h3>
+          <img
+            class="component__img"
+            srcset="img/bbp_shop-block.png 3x"
+            src="img/bbp_shop-block.png 3x"
+            alt="shop block"
+          />
+          <div class="component__code__shop-block">
+            <a href="#!" class="shop-block__link"
+              ><img
                 class="component__img"
                 srcset="img/bbp_shop-block_background.png 1.4x"
                 src="img/bbp_shop-block_background.png 1.4x"
                 alt="shop block"
-                />
-                <div class="shop-block__centered">Shop Jumpsuits
+              />
+              <div class="shop-block__centered">
+                Shop Jumpsuits
                 <p class="shop-block__button">View Products</p>
-            </div>
-                </a>
-        </div>
+              </div>
+            </a>
+          </div>
         </article>
-</section>
-        
-<section id="location" class="page-section">
-<h2 class="component-page__section-heading">Location</h2>
-<article id="feature-location" class="component component--is-done">
-<h3 class="component__name">.location</h3>
-<img
-class="component__img"
-srcset="img/bbp_location-1.png 3x"
-src="img/bbp_location-1.png 3x"
-alt="location"
-/>
-<div class="component__code">
-<div class="grid-location">
-<div class="grid-location__item">
-    <h3 class="component__code__subtitle-location">
-            HIGHLAND PARK
-            </h3>
-            <p class="location-address">5028 York Blvd Los Angeles, CA</p>
-            <ul class="location-hours">
-                <li>Mon - 12-7</li>
-                <li>Tue - CLOSED</li>
-                <li>Wed - 12-7</li>
-                <li>Thu - 12-7</li>
-                <li>Fri - 12-8</li>
-                <li>Sat - 12-8</li>
-                <li>Sun - 12-7</li>
-            </ul>
-            <p class="location-directions"><a href="#!" class="button-directions">DIRECTIONS</a></p>
-        </div>
-            <div class="grid-location__item-illustration">
-            <img class="location-illustration" srcset="img/bbp_location-illustration.png 4x" src="img/bbp_location-illustration.png 4x" alt="big bud press location illustraion"/>
-            </div>
-            </div>
+      </section>
 
-</div>
-<section class="page-section">
-<footer id="page-footer" class="page-footer">
-<h2 class="component-page__section-heading">Footer</h2>
-<article id="footer" class="component component--is-done">
-<h3 class="component__name">.footer</h3>
-<img
-class="component__img"
-srcset="img/bbp_footer.png 3x"
-src="img/bbp_footer.png 3x"
-alt="footer"
-/>
-<div class="component__code">
-<section class="component__code-footer">
-<article class="component__code-footer__block">
-<nav class="footer-quicklinks">
-<ul class="footer-quicklinks__list">
-<h4 class="footer__heading">MAIN MENU</h4>
-<li><a href="#!">SHOP ALL</a></li>
-<li><a href="#!">TOPS AND JACKETS</a></li>
-<li><a href="#!">PANTS</a></li>
-<li><a href="#!">JUMPSUITS</a></li>
-<li><a href="#!">BAGS</a></li>
-<li><a href="#!">ACCESSORIES</a></li>
-<li><a href="#!">CLEARANCE!</a></li>
-<li><a href="#!">HELP</a></li>
-</ul>
-</nav>
-</article>
-<article class="component__code-footer__block">
-<h4 class="footer__heading">ABOUT US</h4>
-<p class="footer__about">
-Big Bud Press is a fast-growing Los Angeles based label specializing in size inclusive, unisex everyday goods. We pride ourselves on our ethical and local manufacturing practices. We work hard to make a product you can feel confident in-- not only when you wear it, but knowing where it comes from and how its been made. We may be small, but we work hard to make something for as many folks as possible. 
-</p>
-</article>
-<article class="component__code-footer__block">
-<h4 class="footer__heading">NEWSLETTER</h4>
-<p class="footer__newsletter">
-Sign up to receive emails when we debut new product launches, restocks, and sales!
-</p>
-<form action="my.php" method="POST">
-<p><input type="email" name="email" placeholder="your-email@example.com"> <input type="submit" value="JOIN" class="footer__newsletter-button"></p>
-</form>
-</article>
-<article class="component__code-footer-nav">
-<nav class="footer-nav">
-<ul class="footer-nav__inline-list">
-<li><a href="https://bigbudpress.com">&copy; BIG BUD PRESS 2019</a></li>
-<li><a href="https://bigbudpress.com/collections/all">Shop All</a></li>
-<li><a href="/pages/about-us">About Us</a></li>
-<li><a href="/pages/customer-service">Help</a></li>
-<li><a href="/blogs/big-bud-press">Blog</a></li>
-</ul>
-</nav>
-</article>
-</section>
-</div>
-</article>
-</footer>
-</section>
-</article>
-</section>
-</main>
-</body>
+      <section id="location" class="page-section">
+        <h2 class="component-page__section-heading">Location</h2>
+        <article id="feature-location" class="component component--is-done">
+          <h3 class="component__name">.location</h3>
+          <img
+            class="component__img"
+            srcset="img/bbp_location-1.png 3x"
+            src="img/bbp_location-1.png 3x"
+            alt="location"
+          />
+          <div class="component__code">
+            <div class="grid-location">
+              <div class="grid-location__item">
+                <h3 class="component__code__subtitle-location">
+                  HIGHLAND PARK
+                </h3>
+                <p class="location-address">5028 York Blvd Los Angeles, CA</p>
+                <ul class="location-hours">
+                  <li>Mon - 12-7</li>
+                  <li>Tue - CLOSED</li>
+                  <li>Wed - 12-7</li>
+                  <li>Thu - 12-7</li>
+                  <li>Fri - 12-8</li>
+                  <li>Sat - 12-8</li>
+                  <li>Sun - 12-7</li>
+                </ul>
+                <p class="location-directions">
+                  <a href="#!" class="button-directions">DIRECTIONS</a>
+                </p>
+              </div>
+              <div class="grid-location__item-illustration">
+                <img
+                  class="location-illustration"
+                  srcset="img/bbp_location-illustration.png 4x"
+                  src="img/bbp_location-illustration.png 4x"
+                  alt="big bud press location illustraion"
+                />
+              </div>
+            </div>
+          </div>
+          <section class="page-section">
+            <footer id="page-footer" class="page-footer">
+              <h2 class="component-page__section-heading">Footer</h2>
+              <article id="footer" class="component component--is-done">
+                <h3 class="component__name">.footer</h3>
+                <img
+                  class="component__img"
+                  srcset="img/bbp_footer.png 3x"
+                  src="img/bbp_footer.png 3x"
+                  alt="footer"
+                />
+                <div class="component__code">
+                  <section class="component__code-footer">
+                    <article class="component__code-footer__block">
+                      <nav class="footer-quicklinks">
+                        <ul class="footer-quicklinks__list">
+                          <h4 class="footer__heading">MAIN MENU</h4>
+                          <li><a href="#!">SHOP ALL</a></li>
+                          <li><a href="#!">TOPS AND JACKETS</a></li>
+                          <li><a href="#!">PANTS</a></li>
+                          <li><a href="#!">JUMPSUITS</a></li>
+                          <li><a href="#!">BAGS</a></li>
+                          <li><a href="#!">ACCESSORIES</a></li>
+                          <li><a href="#!">CLEARANCE!</a></li>
+                          <li><a href="#!">HELP</a></li>
+                        </ul>
+                      </nav>
+                    </article>
+                    <article class="component__code-footer__block">
+                      <h4 class="footer__heading">ABOUT US</h4>
+                      <p class="footer__about">
+                        Big Bud Press is a fast-growing Los Angeles based label
+                        specializing in size inclusive, unisex everyday goods.
+                        We pride ourselves on our ethical and local
+                        manufacturing practices. We work hard to make a product
+                        you can feel confident in-- not only when you wear it,
+                        but knowing where it comes from and how its been made.
+                        We may be small, but we work hard to make something for
+                        as many folks as possible.
+                      </p>
+                    </article>
+                    <article class="component__code-footer__block">
+                      <h4 class="footer__heading">NEWSLETTER</h4>
+                      <p class="footer__newsletter">
+                        Sign up to receive emails when we debut new product
+                        launches, restocks, and sales!
+                      </p>
+                      <form action="my.php" method="POST">
+                        <p>
+                          <input
+                            type="email"
+                            name="email"
+                            placeholder="your-email@example.com"
+                          />
+                          <input
+                            type="submit"
+                            value="JOIN"
+                            class="footer__newsletter-button"
+                          />
+                        </p>
+                      </form>
+                    </article>
+                    <article class="component__code-footer-nav">
+                      <nav class="footer-nav">
+                        <ul class="footer-nav__inline-list">
+                          <li>
+                            <a href="https://bigbudpress.com"
+                              >&copy; BIG BUD PRESS 2019</a
+                            >
+                          </li>
+                          <li>
+                            <a href="https://bigbudpress.com/collections/all"
+                              >Shop All</a
+                            >
+                          </li>
+                          <li><a href="/pages/about-us">About Us</a></li>
+                          <li><a href="/pages/customer-service">Help</a></li>
+                          <li><a href="/blogs/big-bud-press">Blog</a></li>
+                        </ul>
+                      </nav>
+                    </article>
+                  </section>
+                </div>
+              </article>
+            </footer>
+          </section>
+        </article>
+      </section>
+    </main>
+  </body>
 </html>
